@@ -22,7 +22,7 @@ a{
     width: 5rem;
 }
 
-.index-background{
+.index-background,.autos-background{
     background-image: url(../img/indexHeaderBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,11 +31,17 @@ a{
 
     position: relative;
 }
-
-.index-header-inferior{
+.autos-background{
+    background-image: url(../img/autosHeaderBackground.jpg);
+}
+.index-header-inferior,.autos-header-inferior{
     width: 30rem;
     height: 90vh;
     margin-left: 2rem;
+}
+.autos-header-inferior{
+    margin: 0 auto;
+    width: 40rem;
 }
 .index-header-btn{
     border-radius: 0.5rem;
@@ -72,6 +78,11 @@ a{
 }
 .card-auto-btn:hover{
       background-color: #232323;
+}
+
+.foto-carousel{
+    height: 30rem;
+    object-fit: cover;
 }
 /* Footer Estilos */
 footer{

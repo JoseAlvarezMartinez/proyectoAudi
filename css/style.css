@@ -1,0 +1,90 @@
+/* Estilos Generales */
+*{
+    font-family: "Montserrat", sans-serif;
+}
+ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.oscurecer-fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Header Estilos */
+.logotipo-imagen{
+    width: 5rem;
+}
+
+.index-background{
+    background-image: url(../img/indexHeaderBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+
+    position: relative;
+}
+
+.index-header-inferior{
+    width: 30rem;
+    height: 90vh;
+    margin-left: 2rem;
+}
+.index-header-btn{
+    border-radius: 0.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+}
+/* Main Estilos */
+.cards-autos-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    row-gap: 4rem;
+    flex-wrap: wrap;
+}
+.card-auto{
+    width: 25rem;
+    border: 1px solid rgba(0, 0, 0, 0.237);
+}
+.card-auto-imagen{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+.card-auto-titulo{
+    font-weight: 600;
+}
+.card-auto-btn{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+    width: 100%;
+}
+.card-auto-btn:hover{
+      background-color: #232323;
+}
+/* Footer Estilos */
+footer{
+    background-color: #000;
+    margin-top: 2rem;
+    height: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}

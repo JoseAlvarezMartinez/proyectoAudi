@@ -42,8 +42,9 @@ a {
   margin-left: 2rem;
 }
 .autos-header-inferior {
-  margin: 0 auto;
-  width: 40rem;
+  margin: unset;
+  width: unset;
+  padding: 0 1rem;
 }
 .index-header-btn {
   border-radius: 0.5rem;
@@ -126,4 +127,11 @@ footer img {
   width: 3rem;
   height: 3rem;
   object-fit: cover;
+}
+
+@media only screen and (min-width: 900px) {
+  .autos-header-inferior {
+    width: 50%;
+    margin: 0 auto;
+  }
 }

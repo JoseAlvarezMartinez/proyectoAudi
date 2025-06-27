@@ -1,4 +1,4 @@
-/* Header Estilos */
+
 .logotipo-imagen {
   width: 5rem;
 }
@@ -18,10 +18,10 @@
 }
 .index-header-inferior {
   max-width: 30rem;
-  @extend .header-inferior-medidas;
+  @extend %header-inferior-medidas;
 }
 .autos-header-inferior {
-  @extend .header-inferior-medidas;
+  @extend %header-inferior-medidas;
 }
 .index-header-btn {
   border-radius: 0.5rem;

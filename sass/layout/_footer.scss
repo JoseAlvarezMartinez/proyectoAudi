@@ -1,0 +1,17 @@
+/* Footer Estilos */
+footer {
+  background-color: #000;
+  margin-top: 2rem;
+  height: 10rem;
+  display: flex;
+
+  flex-direction: column;
+
+  @include flexBasico(center, center);
+
+  img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+  }
+}

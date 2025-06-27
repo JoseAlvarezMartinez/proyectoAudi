@@ -1,6 +1,6 @@
 1- Modificar el logo de Instagram en el footer [ X ]
 2- Realizar el responsive para mobile de autos.html [ X ]
 3- Solucionar problema de que la navbar en autos.html no se abre [ X ]
-4- Linkear index.html en el logo [ ]
+4- Linkear index.html en el logo [ X ]
 5- Implementar SASS []
 6- Trabajar en la página de Sucursales [ ]

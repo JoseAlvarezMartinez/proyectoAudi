@@ -1,0 +1,28 @@
+/* Estilos Generales */
+@import "./utilities/mixins";
+@import "./utilities/extends";
+@import "./utilities/variables";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+@import "./mq/mq";
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.oscurecer-fondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+

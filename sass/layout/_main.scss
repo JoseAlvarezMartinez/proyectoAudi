@@ -1,0 +1,36 @@
+/* Main Estilos */
+.cards-autos-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  row-gap: 4rem;
+  flex-wrap: wrap;
+}
+.card-auto {
+  width: 25rem;
+  border: 1px solid rgba(0, 0, 0, 0.237);
+}
+.card-auto-imagen {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+.card-auto-titulo {
+  font-weight: 600;
+}
+.card-auto-btn {
+  border: none;
+  background-color: $negro;
+  color: #fff;
+  padding: 0.5rem;
+  width: 100%;
+
+  &:hover {
+    background-color: $negroHover;
+  }
+}
+
+.foto-carousel {
+  height: 30rem;
+  object-fit: cover;
+}

@@ -3,17 +3,20 @@
   padding: 0 2rem;
 }
 
-.logotipo-imagen {
-  width: 5rem;
-}
-
-.index-background, .autos-background {
-  background-image: url(../img/indexHeaderBackground.jpg);
+.autos-background, .index-background {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 95vh;
   position: relative;
+}
+
+.logotipo-imagen {
+  width: 5rem;
+}
+
+.index-background {
+  background-image: url(../img/indexHeaderBackground.jpg);
 }
 
 .autos-background {

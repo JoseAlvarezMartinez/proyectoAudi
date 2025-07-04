@@ -1,24 +1,18 @@
-
 .logotipo-imagen {
   width: 5rem;
 }
 
 .index-background {
+  @extend %headerBackground;
   background-image: url(../img/indexHeaderBackground.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 95vh;
-
-  position: relative;
 }
 .autos-background {
-  @extend .index-background;
+  @extend %headerBackground;
   background-image: url(../img/autosHeaderBackground.jpg);
 }
 .index-header-inferior {
-  max-width: 30rem;
   @extend %header-inferior-medidas;
+  max-width: 30rem;
 }
 .autos-header-inferior {
   @extend %header-inferior-medidas;

@@ -11,6 +11,13 @@
   position: relative;
 }
 
+.index-card-auto-container, .cards-autos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .logotipo-imagen {
   width: 5rem;
 }
@@ -32,13 +39,6 @@
   font-weight: 500;
   text-transform: uppercase;
   border: none;
-}
-
-.cards-autos-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
 }
 
 .card-auto {
@@ -112,13 +112,6 @@ footer img {
 .index-card-auto img {
   height: 15rem;
   object-fit: cover;
-}
-
-.index-card-auto-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 900px) {

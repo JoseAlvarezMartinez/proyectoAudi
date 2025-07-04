@@ -1,17 +1,14 @@
-
 .cards-autos-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+  @extend %flexWrap;
+ 
 }
 .card-auto {
   width: 25rem;
   border: 1px solid rgba(0, 0, 0, 0.237);
   transition: transform 0.5s;
 
-  &:hover{
-    transform:scale(1.03);
+  &:hover {
+    transform: scale(1.03);
   }
 }
 .card-auto-imagen {

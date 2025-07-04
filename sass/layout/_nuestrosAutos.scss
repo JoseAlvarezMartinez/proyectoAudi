@@ -1,0 +1,13 @@
+.index-card-auto {
+  max-width: 25rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.index-card-auto img {
+  height: 15rem;
+  object-fit: cover;
+}
+.index-card-auto-container {
+  @extend %flexWrap;
+}

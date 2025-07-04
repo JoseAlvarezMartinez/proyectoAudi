@@ -6,5 +6,4 @@
 
 @mixin gridArea($gridAreaUno,$gridAreaDos,$gridAreaTres,$gridAreaCuatro) {
   grid-area: #{$gridAreaUno} / #{$gridAreaDos} / #{$gridAreaTres} / #{$gridAreaCuatro};
-  background-color: $grisGrid;
 }

@@ -3,12 +3,16 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
-  row-gap: 4rem;
   flex-wrap: wrap;
 }
 .card-auto {
   width: 25rem;
   border: 1px solid rgba(0, 0, 0, 0.237);
+  transition: transform 0.5s;
+
+  &:hover{
+    transform:scale(1.03);
+  }
 }
 .card-auto-imagen {
   height: 25rem;

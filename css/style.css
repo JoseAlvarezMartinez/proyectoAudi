@@ -1,10 +1,8 @@
-/* Estilos Generales */
-.header-inferior-medidas, .autos-header-inferior, .index-header-inferior {
+.autos-header-inferior, .index-header-inferior {
   height: 90vh;
   padding: 0 2rem;
 }
 
-/* Header Estilos */
 .logotipo-imagen {
   width: 5rem;
 }
@@ -33,18 +31,20 @@
   border: none;
 }
 
-/* Main Estilos */
 .cards-autos-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  row-gap: 4rem;
   flex-wrap: wrap;
 }
 
 .card-auto {
   width: 25rem;
   border: 1px solid rgba(0, 0, 0, 0.237);
+  transition: transform 0.5s;
+}
+.card-auto:hover {
+  transform: scale(1.03);
 }
 
 .card-auto-imagen {
@@ -73,7 +73,6 @@
   object-fit: cover;
 }
 
-/* Footer Estilos */
 footer {
   background-color: #000;
   margin-top: 2rem;
@@ -89,7 +88,55 @@ footer img {
   object-fit: cover;
 }
 
+.parent {
+  display: grid;
+  gap: 1rem;
+}
+
+.preguntas-titulo {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 1rem;
+}
+
+.index-card-auto {
+  max-width: 25rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.index-card-auto img {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.index-card-auto-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 @media only screen and (min-width: 900px) {
+  .parent {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0.2rem;
+    grid-row-gap: 0.2rem;
+  }
+  .div1 {
+    grid-area: 1/1/3/2;
+  }
+  .div2 {
+    grid-area: 1/2/2/3;
+  }
+  .div3 {
+    grid-area: 2/2/4/3;
+  }
+  .div4 {
+    grid-area: 3/1/4/2;
+  }
   .autos-header-inferior {
     width: 50%;
     margin: 0 auto;

@@ -1,6 +1,6 @@
 1- Modificar la sección de preguntas frecuentes (el grid en desktop) [ X ]
 2- Desarrollar sección de Nuestros Autos en el index [ X ]
 3- Agregra :hover con transición a los autos de la página autos.html [ X ]
-4- Ver si podemos optimizar el código [ ]
+4- Ver si podemos optimizar el código [ X ]
 5- Generar una sección de reseñas en autos.html [ ]
 

@@ -80,10 +80,6 @@ footer {
   background-color: #000;
   margin-top: 2rem;
   height: 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 footer img {
   width: 3rem;

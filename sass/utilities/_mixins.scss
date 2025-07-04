@@ -1,9 +1,3 @@
-
-@mixin flexBasico($justifyValor, $alignItemsValor) {
-  justify-content: $justifyValor;
-  align-items: $alignItemsValor;
-}
-
 @mixin gridArea($gridAreaUno,$gridAreaDos,$gridAreaTres,$gridAreaCuatro) {
   grid-area: #{$gridAreaUno} / #{$gridAreaDos} / #{$gridAreaTres} / #{$gridAreaCuatro};
 }
